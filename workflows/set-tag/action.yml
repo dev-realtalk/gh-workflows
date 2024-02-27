@@ -17,8 +17,6 @@ runs:
     - name: Set tag
       shell: bash
       run: |
-        env;
-        
         if [ "x" = "x${{inputs.ADD_DATE_POSTFIX}}"  ];
         then 
           POSTFIX=""
